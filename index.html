@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ankur</title>
+	<link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@100&display=swap" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css" >
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	
+</head>
+<body id="top">
+	<header>
+		<h2><a href="#top" target="_blank"><img src="img/ankur logo.png" alt="" width="150px" height="80px" > </a></h2>
+		<nav>
+			<ul>
+				<li><a href="#top">HOME</a></li>
+				 <li><a href="#about">ABOUT US</a></li>
+				 <li><a href="#activities">ACTIVITIES</a></li>		
+				 <li><a href="#contact">CONTACT US</a></li>
+				 <li><a href="#socialmedia">LINKS</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- ********************************* -->
+	<div id="hero">
+		<div class="background-image"></div>
+		<h1>Ankur Pre School And Day Care</h1>
+		<h3>Best Day Care Center in lalitpur</h3>
+		
+	</div>
+	<!-- ********************************* -->
+	<div id="about">
+		<h3 class="title">About Us</h3>
+		<hr>
+		<div id="two-cols">
+			<div class="about-img"><img src="img/about.jpg" alt="thumb up" class="img-fluid" width="600px" height="350px"></div>
+			<div class="about-bio">
+			<p>At Ankur Pre School & Day Care we do our very best to make our pre-school "A Home away from home' for young kids. A place where your child feels safe and secure, like in their own home where they can explore, discover and learn more about this limitless world. So while your precious child is on their quest to learning the foundation of their personality we make sure that they get the best at every step.</p>
+		 	</div>
+			
+			
+
+		 </div>
+				
+	</div>
+	<!-- ********************************* -->
+	<div id="activities" class="photo-gallery">
+		<h3 class="title">activities</h3>
+		
+		<hr>
+		<ul class="grid">
+			<li class="small" style="background-image: url('img/1.jpg');"></li>
+			<li class="large" style="background-image: url('img/2.jpg');"></li>
+			<li class="small" style="background-image: url('img/3.jpg');"></li>
+			<li class="large" style="background-image: url('img/4.jpg');"></li>
+		</ul>
+	</div>
+	
+	<!-- ********************************* -->
+	<div id="administrators">
+		<h3 class="title">Administrators</h3>
+		<hr>
+		<ul>
+		<li><p class="portrait"><img src="img/kanta.jpg" alt="Kanta Chhetry (Principal)" class="portrait-photos" width="250" height="250"></p>
+		<p class="quote">&ldquo;x&rdquo;</p>
+		<p class="author"> Kanta Chhetry (Principal)</p>
+		</li>
+		<li>
+		<p class="portrait"><img src="img/kripa chhetry.jpg" alt="Kripa Chhetry (Coordinator)" class="portrait-photos" width="250" height="250"></p>
+		<p class="quote">&ldquo;x&rdquo;</p>
+		<p class="author"> Kripa Chhetry (Coordinator)</p>
+		</li>
+		<li>
+		<p class="portrait"><img src="img/dharma shova.jpg" alt="Dharma Shova Bajracharya  (Administrative Accountant)" class="portrait-photos" width="250" height="250"></p>
+		<p class="quote">&ldquo;x&rdquo;</p>
+		<p class="author"> Dharma Shova Bajracharya (Administrative Accountant)</p>
+		</li>
+	    </ul>
+    </div>
+	
+	<!-- ********************************* -->
+	<div id="contact">
+		<h3 class="title">Location</h3>
+		<hr>
+		<section class="flexbox-section">
+			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14133.684909229498!2d85.30814508164592!3d27.673373074894215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18343f02adef%3A0xfaf641baf0ed4f0a!2sANKUR%20Pre%20School%20%26%20Day%20Care!5e0!3m2!1sen!2snp!4v1604310019130!5m2!1sen!2snp" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				
+			</p>
+			<p>Lalitpur<br>
+				झम्सीखेल, 44700<br>
+				Nepal</p>
+	</div>
+	<!-- ********************************* -->
+	<div id="contact-form">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScxeWJa2wQ95HCjFGCbUytQJ4h-5Imz9-ulmlb6OpgaFGIKYA/viewform?embedded=true" width="100%" height="1250" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</div>
+
+	<!-- ********************************* -->
+	<footer id="socialmedia">
+		<ul>
+			<li><a href="https://www.facebook.com/ankur.lalitpur/?ref=page_internal" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+
+		</ul>
+		<p>&copy; Ankur Pre School And Day Care Center. (<script>document.write(new Date().getFullYear());</script>)</p>
+		<p>&ldquo; A Home Away From Home.&rdquo;</p>
+	</footer>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('a[href^="#"]').on('click',function (e) {e.preventDefault();
+
+		var target = this.hash;
+		var $target = $(target);
+
+		$('html, body').stop().animate({
+	        'scrollTop': $target.offset().top-100
+		}, 900, 'swing', function () {
+	        window.location.hash = target-100;
+		});
+	       });
+});
+</script>
+</body>
+</html>
